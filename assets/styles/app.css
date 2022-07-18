@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 40px;
+}
+
+.image_drop__area{
+    border: 1px solid gray;
+    height: 200px;
+    width: 200px;
+}
+
+.hightLight{
+    background-color: rgb(241, 225, 223)
+};
+
+img {
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
